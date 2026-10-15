@@ -1,0 +1,2 @@
+Employee is the direct parent. The arrow goes from Programmer up to Employee.Person is the indirect parent (grandparent), because Employee itself inherits from Person
+Intern should go directly under Employee, as a sibling of Manager, Programmer and Cleaner. It also doesn’t belong under Customer or directly under Person, because it would then miss the employee features. This placement avoids rewriting shared code, and the Intern class can add its own features, such as a School attribute.
